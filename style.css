@@ -181,3 +181,34 @@ p {
     max-width: 400px;
     /* Permet aux deux derniers de rester centrés */
 }
+
+.skills-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Désactive le retour à la ligne */
+    justify-content: center;
+    /* Centre tous les éléments */
+    gap: 20px;
+    /* Espace entre les éléments */
+    overflow-x: auto;
+    /* Ajoute un défilement horizontal si nécessaire */
+    margin-top: 20px;
+}
+
+.skill {
+    flex: 0 0 auto;
+    /* Les éléments conservent leur taille */
+    width: 80px;
+    /* Taille fixe ou ajustez selon vos besoins */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    /* Maintient les proportions de l'image */
+}
