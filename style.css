@@ -186,7 +186,7 @@ p {
     /* Les éléments conservent leur taille */
     width: 80px;
     /* Taille fixe ou ajustez selon vos besoins */
-    height: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
