@@ -177,21 +177,7 @@ p {
     /* Centrez le conteneur */
 }
 
-.skill {
-    width: calc(100% / 5 - 16px);
-    /* Divise la largeur pour que 5 éléments tiennent sur une ligne */
-    max-width: 100px;
-    /* Limite la taille maximale d'un élément */
-}
-
-@media (max-width: 768px) {
-    .skill {
-        width: 100px;
-        /* Réduit la largeur des éléments sur les petits écrans */
-    }
-
-    .skills-container {
-        max-width: 400px;
-        /* Permet aux deux derniers de rester centrés */
-    }
+.skills-container {
+    max-width: 400px;
+    /* Permet aux deux derniers de rester centrés */
 }
