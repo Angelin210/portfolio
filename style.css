@@ -193,6 +193,15 @@ p {
     margin-top: 20px;
 }
 
+.skills-container {
+    display: flex;
+    justify-content: center;
+    /* Centre les éléments horizontalement */
+    gap: 20px;
+    /* Espace entre les compétences */
+    margin-top: 20px;
+}
+
 .skill {
     flex: 0 0 auto;
     /* Les éléments conservent leur taille */
