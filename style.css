@@ -14,6 +14,7 @@ body {
     height: 80vh;
     background: #000;
     position: relative;
+    filter: brightness(2.0);
 }
 
 .slider-background {
@@ -184,9 +185,9 @@ p {
 .skill {
     flex: 0 0 auto;
     /* Les éléments conservent leur taille */
-    width: 80px;
+    width: 100px;
     /* Taille fixe ou ajustez selon vos besoins */
-    height: 100px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
