@@ -171,10 +171,6 @@ p {
     gap: 20px;
     margin-top: 20px;
     max-width: 600px;
-    /* Ajustez la largeur maximale du conteneur pour forcer la disposition sur une ligne */
-    margin-left: auto;
-    margin-right: auto;
-    /* Centrez le conteneur */
 }
 
 .skills-container {
