@@ -173,22 +173,6 @@ p {
     max-width: 600px;
 }
 
-.skills-container {
-    max-width: 400px;
-    /* Permet aux deux derniers de rester centrés */
-}
-
-.skills-container {
-    display: flex;
-    flex-wrap: nowrap;
-    /* Désactive le retour à la ligne */
-    justify-content: center;
-    /* Centre tous les éléments */
-    gap: 20px;
-    /* Espace entre les éléments */
-    margin-top: 20px;
-}
-
 .skill img {
     max-width: 100%;
     max-height: 100%;
