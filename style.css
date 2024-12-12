@@ -14,7 +14,7 @@ body {
     height: 80vh;
     background: #000;
     position: relative;
-    filter: brightness(2.0);
+    filter: brightness(3.0);
 }
 
 .slider-background {
@@ -198,4 +198,28 @@ p {
     max-height: 100%;
     object-fit: contain;
     /* Maintient les proportions de l'image */
+}
+
+.grid-container {
+    display: grid;
+    /* Active le mode Grid */
+    grid-template-columns: 1fr 1fr;
+    /* Deux colonnes de largeur égale */
+    gap: 20px;
+    /* Espace entre les colonnes */
+}
+
+.colonne {
+    padding: 10px;
+    /* Optionnel : pour l'espacement interne */
+}
+
+.gauche {
+    background-color: #f9f9f9;
+    /* Optionnel : pour distinguer visuellement */
+}
+
+.droite {
+    background-color: #e9e9e9;
+    /* Optionnel : pour distinguer visuellement */
 }
