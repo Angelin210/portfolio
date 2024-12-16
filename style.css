@@ -14,7 +14,7 @@ body {
     height: 80vh;
     background: #000;
     position: relative;
-    filter: brightness(3.0);
+    filter: brightness(2.0);
 }
 
 .slider-background {
