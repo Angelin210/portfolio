@@ -158,7 +158,8 @@ p {
     /* Espace entre les éléments */
     margin-top: 20px;
     font-size: 14px;
-    width: 50%;
+    width: 25%;
+    height: auto;
 }
 
 .skill img {
