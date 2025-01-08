@@ -101,6 +101,8 @@ p {
     border-radius: 15px;
     padding: 20px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
 }
 
 .skill img {
