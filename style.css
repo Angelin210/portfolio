@@ -163,25 +163,6 @@ p {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-    /* Maintient les proportions des images */
-}
-
-
-.skill {
-    flex: 0 0 auto;
-    /* Les éléments conservent leur taille */
-    width: 100px;
-    /* Taille fixe ou ajustez selon vos besoins */
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.skill img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
     /* Maintient les proportions de l'image */
 }
 
