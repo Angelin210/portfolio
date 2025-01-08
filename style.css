@@ -157,6 +157,7 @@ p {
     gap: 20px;
     /* Espace entre les éléments */
     margin-top: 20px;
+    font-size: 14px;
 }
 
 .skill img {
