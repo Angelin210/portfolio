@@ -62,6 +62,35 @@
     a:hover {
         text-decoration: underline;
     }
+
+    .btn {
+        display: inline-flex;
+        /* Pour aligner les éléments à l'intérieur */
+        align-items: center;
+        /* Centrer verticalement */
+        padding: 12px 25px;
+        background: linear-gradient(145deg, #9a34ea, #6a21aa);
+        /* Dégradé de couleurs pour le fond */
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+        /* Bordures arrondies */
+        font-size: 15px;
+        /* Taille du texte */
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3), inset 0px 2px 3px rgba(255, 255, 255, 0.1);
+        /* Ombres internes et externes */
+        border: none;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+        /* Effet de survol */
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4), inset 0px 2px 4px rgba(255, 255, 255, 0.2);
+        /* Augmente les ombres au survol */
+    }
 </style>
 
 <body>
