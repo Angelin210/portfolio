@@ -96,22 +96,38 @@ p {
     justify-content: space-between;
 }
 
-.skill {
-    background: #333;
-    border-radius: 15px;
-    padding: 20px;
-    box-sizing: border-box;
+.skills-container {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    width: 200%;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centre les éléments horizontalement */
+    gap: 20px;
+    /* Espacement entre les compétences */
+    padding: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill .text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    /* Ajuste la largeur des éléments */
 }
 
 .skill img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    /* Ajustez selon vos besoins */
+    height: 80px;
     object-fit: contain;
+    margin-bottom: 10px;
 }
 
 .skill h3 {
@@ -154,20 +170,6 @@ p {
 
 .text-center {
     text-align: center;
-}
-
-.skills-container {
-    display: flex;
-    flex-wrap: nowrap;
-    /* Désactive le retour à la ligne */
-    justify-content: center;
-    /* Centre tous les éléments */
-    gap: 20px;
-    /* Espace entre les éléments */
-    margin-top: 20px;
-    font-size: 14px;
-    width: 25%;
-    height: auto;
 }
 
 .grid-container {
