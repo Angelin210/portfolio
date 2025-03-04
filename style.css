@@ -202,3 +202,42 @@ p {
     align-items: center;
     flex-direction: column;
 }
+
+.boxed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxed .btn {
+    width: 45%;
+    /* Ajuste la largeur des boutons */
+    margin: 5px;
+}
+
+.boxed .btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 300px;
+    /* Ajuste la largeur maximale */
+}
+
+.boxed .btn-container a {
+    flex: 1 1 calc(50% - 10px);
+    /* 50% de largeur avec un petit espacement */
+    text-align: center;
+}
+
+.w32 span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* Espacement entre l'icône et le texte */
+}
+
+.material-symbols-outlined {
+    font-size: 20px;
+    /* Ajuste la taille de l'icône */
+}
